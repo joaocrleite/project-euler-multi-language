@@ -232,7 +232,7 @@ for ext in "${exts_to_run[@]}"; do
         bin="$prob_dir/$base-c-bin"
         (
           cd "$prob_dir"
-          gcc -std=c11 -O2 -pipe -Wall -Wextra "$base.c" -o "$base-c-bin"
+          gcc -std=c11 -O2 -pipe -Wall -Wextra "$base.c" -o "$base-c-bin" -lm
         )
         run_with_timer "C (gcc) → $file" "$bin"
         rm -f "$bin"
