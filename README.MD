@@ -51,6 +51,7 @@ chmod +x run_problem.sh
 ## Example
 `./run_problem.sh 3 c,go`
 
+```
 ========================================================
 Problem 003
 Path: problems/003
@@ -70,3 +71,4 @@ Result=6857
 Result=6857
 ⏱  Duration: 1 ms
 ✅ Exit code: 0
+```
