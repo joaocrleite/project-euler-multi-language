@@ -4,11 +4,7 @@ import "fmt"
 
 func main() {
 
-	var example_result int = example()
-
-	fmt.Printf("Example=%d\n", example_result)
-
-	var problem_result int = problem()
+	var problem_result int = resolve(100)
 
 	fmt.Printf("Result=%d\n", problem_result)
 
@@ -29,12 +25,4 @@ func resolve(factor int) int {
 	result := square_sum - sum_square
 
 	return result
-}
-
-func example() int {
-	return resolve(10)
-}
-
-func problem() int {
-	return resolve(100)
 }
