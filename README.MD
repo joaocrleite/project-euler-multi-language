@@ -15,15 +15,22 @@ https://projecteuler.net/
 - PHP
 
 ## Version used
-java openjdk 21.0.8
-javac 21.0.8
+java 21.0.8
+
 node 20.19.4
+
 python 3.12.3
+
 zig 0.13.0
+
 go 1.22.2
+
 g++ 13.3.0 std c++17
+
 gcc 13.3.0 std c11
+
 php 8.3.6
+
 rust 1.89.0
 
 
