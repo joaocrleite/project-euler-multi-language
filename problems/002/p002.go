@@ -3,14 +3,9 @@ package main
 import "fmt"
 
 func main() {
+	var result int = resolve(4000000)
 
-	var example_result int = example()
-
-	fmt.Printf("Example=%d\n", example_result)
-
-	var problem_result int = problem()
-
-	fmt.Printf("Result=%d\n", problem_result)
+	fmt.Printf("Result=%d\n", result)
 
 }
 
@@ -41,12 +36,4 @@ func resolve(max int) int {
 	}
 
 	return even_sum
-}
-
-func example() int {
-	return resolve(100)
-}
-
-func problem() int {
-	return resolve(4000000)
 }

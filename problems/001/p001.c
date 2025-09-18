@@ -21,26 +21,12 @@ int resolve(int n1, int n2, int max)
     return sum;
 }
 
-int example()
-{
-    return resolve(3, 5, 10);
-}
-
-int problem()
-{
-    return resolve(3, 5, 1000);
-}
-
 int main()
 {
 
-    int example_result = example();
+    int result = resolve(3, 5, 1000);
 
-    printf("Example=%d\n", example_result);
-
-    int problem_result = problem();
-
-    printf("Result=%d\n", problem_result);
+    printf("Result=%d\n", result);
 
     return 0;
 }
