@@ -14,7 +14,7 @@ https://projecteuler.net/
 - Java
 - PHP
 
-## Version used
+## Versions
 java 21.0.8
 
 node 20.19.4
@@ -46,3 +46,27 @@ chmod +x run_problem.sh
 ./run_problem.sh 7 py js             # accepts unpadded ID; runs Python & JS
 
 ```
+
+
+## Example
+`./run_problem.sh 3 c,go`
+
+========================================================
+Problem 003
+Path: problems/003
+Filters: c go
+Running: go c
+========================================================
+────────────────────────────────────────────────────────
+▶ Go → problems/003/p003.go
+────────────────────────────────────────────────────────
+Result=6857
+⏱  Duration: 65 ms
+✅ Exit code: 0
+
+────────────────────────────────────────────────────────
+▶ C (gcc) → problems/003/p003.c
+────────────────────────────────────────────────────────
+Result=6857
+⏱  Duration: 1 ms
+✅ Exit code: 0

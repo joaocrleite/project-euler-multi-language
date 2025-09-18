@@ -4,13 +4,9 @@ import "fmt"
 
 func main() {
 
-	var example_result int = example()
+	var result int = resolve(600851475143)
 
-	fmt.Printf("Example=%d\n", example_result)
-
-	var problem_result int = problem()
-
-	fmt.Printf("Result=%d\n", problem_result)
+	fmt.Printf("Result=%d\n", result)
 
 }
 
@@ -32,12 +28,4 @@ func resolve(num int) int {
 	}
 
 	return largest_prime
-}
-
-func example() int {
-	return resolve(13195)
-}
-
-func problem() int {
-	return resolve(600851475143)
 }
